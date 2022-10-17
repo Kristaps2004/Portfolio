@@ -187,7 +187,8 @@ footer {
   grid-gap: 10px;
   grid-template-areas: 
   "img1 img2 img3 img4 img5"
-  "img6 img7 img8 img4 img5"
+  "img6 img7 img8 img9 img10"
+  "img11 img12 img13 img9 img14"
   ;
 }
 
@@ -240,6 +241,38 @@ footer {
 #gallery .img8{
   grid-area: img8;
   background-image: url("../img/img8.jpg");
+}
+
+#gallery .img9{
+  grid-area: img9;
+  background-image: url("../img/img9.jpg");
+  height: 610px;
+
+}
+
+#gallery .img10{
+  grid-area: img10;
+  background-image: url("../img/img10.jpg");
+}
+
+#gallery .img11{
+  grid-area: img11;
+  background-image: url("../img/img11.jpg");
+}
+
+#gallery .img12{
+  grid-area: img12;
+  background-image: url("../img/img12.jpg");
+}
+
+#gallery .img13{
+  grid-area: img13;
+  background-image: url("../img/img13.jpg");
+}
+
+#gallery .img14{
+  grid-area: img14;
+  background-image: url("../img/img14.jpg");
 }
 
 //titles
