@@ -1,6 +1,7 @@
 body {
-    margin: 1.5em;
-    font-family: 'Poppins', sans-serif;
+  margin: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  min-height: 90vh;
 }
   
 a {
@@ -85,44 +86,41 @@ header {
 }
   
   h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-top: 2em;
     line-height: 3.3rem;
     color: rgb(255, 255, 255);
   }
-  
-  .subhead {
-    font-size: 1.4rem;
-  }
-  
+    
   section.hero {
     color: rgb(255, 255, 255);
     height: 90vh;
     width: 50%;
+    font-size: 2rem;
     margin-right: 20rem;
     margin-bottom: em;
   }
   
 .more-info {
   img {
-      width: 100%;
-      object-fit: cover;
-      height: 15em;
+    width: 100%;
+    object-fit: cover;
+    height: 15em;
   }
 
   .title {
-      font-weight: bold;
-      font-size: 1.25rem;
+    font-weight: bold;
+    font-size: 1.50rem;
   }
   
   .desc {
-      line-height: 1.25rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
   }
 }
   
 .open-nav {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
+  transform: translateX(0%);
 }
   
 @media only screen and (min-width: 620px) {
@@ -220,16 +218,16 @@ footer {
           margin-left: 8em;
   
           a {
-              font-size: 1.2rem;
-              padding: 0.5em 1.5em;
-              color: black;
-              width: 100%;
-              text-align: center;
+            font-size: 1.2rem;
+            padding: 0.5em 1.5em;
+            color: black;
+            width: 100%;
+            text-align: center;
               
-              &:hover {
-                  background: none;
-                  text-decoration: underline;
-              }
+            &:hover {
+                background: none;
+                text-decoration: underline;
+            }
           }
       }
   }

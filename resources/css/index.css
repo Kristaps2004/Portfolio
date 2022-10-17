@@ -1,6 +1,7 @@
 body {
   margin: 1.5em;
   font-family: 'Poppins', sans-serif;
+  min-height: 90vh;
 }
 
 a {
@@ -93,20 +94,17 @@ header svg {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   margin-top: 2em;
   line-height: 3.3rem;
   color: white;
-}
-
-.subhead {
-  font-size: 1.4rem;
 }
 
 section.hero {
   color: white;
   height: 90vh;
   width: 50%;
+  font-size: 2rem;
   margin-right: 20rem;
   margin-bottom: em;
 }
@@ -120,16 +118,17 @@ section.hero {
 
 .more-info .title {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.50rem;
 }
 
 .more-info .desc {
-  line-height: 1.25rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 
 .open-nav {
   -webkit-transform: translateX(0%);
-  transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 @media only screen and (min-width: 620px) {
