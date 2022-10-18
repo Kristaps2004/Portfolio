@@ -35,6 +35,7 @@ if(galleryImages) {
             let newImg = document.createElement("img");
             newImgWindow.appendChild(newImg);
             newImg.setAttribute("src", "resources/img/" +setNewImgUrl);
+            newImg.setAttribute("id", "current-img");
 
             newImg.onload = function() {
                 let imgWidth = this.width;
