@@ -235,7 +235,7 @@ footer .Footer-ListWrapper .footer a:hover {
         justify-self: left;
   }
   footer {
-    position: absolute;
+    position: relative;
     bottom: 0%;
     width: 90%;
     border-top: 1px solid #C1CDD7;
