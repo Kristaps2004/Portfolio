@@ -172,6 +172,7 @@ footer .Footer-ListWrapper .footer a:hover {
     height: 5rem;
   }
   footer {
+    position: absolute;
     bottom: 0%;
     width: 90%;
     border-top: 1px solid #C1CDD7;

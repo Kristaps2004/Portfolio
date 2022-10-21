@@ -132,8 +132,6 @@ section.hero {
 }
 
 footer {
-  bottom: 0%;
-  width: 90%;
   border-top: 1px solid #C1CDD7;
 }
 
@@ -237,6 +235,9 @@ footer .Footer-ListWrapper .footer a:hover {
         justify-self: left;
   }
   footer {
+    position: absolute;
+    bottom: 0%;
+    width: 90%;
     border-top: 1px solid #C1CDD7;
   }
   footer .Footer-ListWrapper {

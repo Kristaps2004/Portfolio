@@ -124,8 +124,6 @@ header {
 }
 
 footer {
-  bottom: 0%;
-  width: 90%;
   border-top: 1px solid #C1CDD7;
 
   .Footer-ListWrapper{
@@ -235,6 +233,9 @@ footer {
   }
 
   footer {
+    position: absolute;
+    bottom: 0%;
+    width: 90%;
     border-top: 1px solid #C1CDD7;
   
     .Footer-ListWrapper{
@@ -242,8 +243,8 @@ footer {
         margin: 0;
     
       .footer {
-          margin-top: 2.5em;
-  
+        margin-top: 2.5em;
+
         a {
           font-size: 1.2rem;
           padding: 0.5em 1.5em;
