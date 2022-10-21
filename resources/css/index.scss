@@ -51,25 +51,25 @@ nav {
   transition: transform .5s ease-in-out;
 
   ul {
-      list-style-type: none;
-      margin-top: 8em;
+    list-style-type: none;
+    margin-top: 8em;
 
-      a {
-          margin-top: 3rem;
-          color: black;
-          display: block;
-          width: 100%;
+    a {
+      margin-top: 3rem;
+      color: black;
+      display: block;
+      width: 100%;
 
-          &:hover {
-              background: rgb(229, 226, 226);
-          }
+      &:hover {
+          background: rgb(229, 226, 226);
       }
+    }
   }
 
   .close {
-      float: right;
-      margin: 2em;
-      width: 2.5em;
+    float: right;
+    margin: 2em;
+    width: 2.5em;
   }
 
 }
