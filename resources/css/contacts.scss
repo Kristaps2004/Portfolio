@@ -2,6 +2,7 @@ body {
   margin: 1.5em;
   font-family: 'Poppins', sans-serif;
   min-height: 90vh;
+  user-select: none;
 }
   
 a {
@@ -12,7 +13,6 @@ a {
 .logo {
   font-size: 2rem;
   color: rgb(8, 124, 8);
-  user-select: none;
 
   span {
       color: rgb(35, 185, 21);
@@ -22,7 +22,6 @@ a {
 .logoimg {
   width: 3rem;
   height: 3rem;
-  user-select: none;
 }
   
 nav {
@@ -57,7 +56,6 @@ nav {
     float: right;
     margin: 2em;
     width: 2.5em;
-    user-select: none;
   }
 }
   
@@ -95,6 +93,9 @@ h1 {
 }
 
 footer {
+  position: relative;
+  bottom: 0%;
+  width: 90%;
   border-top: 1px solid #C1CDD7;
 
   .Footer-ListWrapper{
