@@ -17,7 +17,7 @@ let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 
 if(galleryImages) {
-    galleryImages.forEach(function(image) {
+    galleryImages.forEach(function(image, gallery) {
         image.onclick = function() {
             let getElementCss = window.getComputedStyle(image);
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
@@ -34,28 +34,25 @@ if(galleryImages) {
 
             let newImg = document.createElement("img");
             newImgWindow.appendChild(newImg);
-            newImg.setAttribute("src", "resources/img/" +setNewImgUrl);
+            newImg.setAttribute("src", "resources/img/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
 
             newImg.onload = function() {
                 let imgWidth = this.width;
-                let calcImgTOEdge = ((windowWidth - imgWidth) / 2) - 80;
 
                 let newNextBtn = document.createElement("a");
                 let btnNextText = document.createTextNode("Next");
                 newNextBtn.appendChild(btnNextText);
                 container.appendChild(newNextBtn);
                 newNextBtn.setAttribute("class", "img-btn-next");
-                newNextBtn.setAttribute("onclick", "changeImg()");
-                newNextBtn.style.cssText = "right: " + calcImgTOEdge + "px;";
+                newNextBtn.setAttribute("onclick", "changeImg(1)");
     
                 let newPrevBtn = document.createElement("a");
                 let btnPrevText = document.createTextNode("Prev");
                 newPrevBtn.appendChild(btnPrevText);
                 container.appendChild(newPrevBtn);
                 newPrevBtn.setAttribute("class", "img-btn-prev");
-                newPrevBtn.setAttribute("onclick", "changeImg()");
-                newPrevBtn.style.cssText = "left: " + calcImgTOEdge + "px;";
+                newPrevBtn.setAttribute("onclick", "changeImg(0)");
             }
         }
     });
@@ -73,6 +70,7 @@ function changeImg(changeDir) {
     let getImgWindow = document.querySelector(".img-window");
     let newImg = document.createElement("img");
     getImgWindow.appendChild(newImg);
+
 
     let calcNewImg;
     if(changeDir === 1) {

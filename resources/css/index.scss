@@ -27,16 +27,18 @@ a {
 .logo {
   font-size: 2rem;
   color: rgb(8, 124, 8);
+  user-select: none;
 
   span {
       color: rgb(35, 185, 21);
   }
 }
   
-  .logoimg {
-    width: 3rem;
-    height: 3rem;
-  }
+.logoimg {
+  width: 3rem;
+  height: 3rem;
+  user-select: none;
+}
   
 nav {
   position: fixed;
@@ -61,7 +63,7 @@ nav {
       width: 100%;
 
       &:hover {
-          background: rgb(229, 226, 226);
+        background: rgb(229, 226, 226);
       }
     }
   }
@@ -141,8 +143,8 @@ footer {
         text-align: center;
           
         &:hover {
-            background: none;
-            text-decoration: underline;
+          background: none;
+          text-decoration: underline;
         }
       }
     }
@@ -162,32 +164,34 @@ footer {
   }
 
   nav {
-      transform: translateX(0);
-      position: unset;
-      display: block;
-      width: auto;
-      height: auto;
-      background: none;
+    transform: translateX(0);
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
 
-      svg.close {
-          display: none;
+    svg.close {
+      display: none;
+      user-select: none;
+    }
+
+    ul {
+      display: flex;
+      margin: 0;
+      padding: auto;
+
+      a {
+        color: white;
+        padding: 1.5em;
+        font-size: 1.2rem;
+
+        &:hover {
+          background: none;
+          text-decoration: underline;
+        }
       }
-
-      ul {
-          display: flex;
-          margin: 0;
-
-          a {
-              color: white;
-              padding: 0.5em 1.5em;
-              font-size: 1.2rem;
-
-              &:hover {
-                  background: none;
-                  text-decoration: underline;
-              }
-          }
-      }
+    }
   }
 
   .logo {
@@ -202,34 +206,35 @@ footer {
   
 
   .feature {
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      gap: 3em;
-      margin-bottom: 8em;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 3em;
+    margin-bottom: 8em;
 
-      img {
-          width: 45em;
-          height: 22em;
-      }
+    img {
+      width: 45em;
+      height: 22em;
+      user-select: none;
+    }
 
-      .content {
-          text-align: left;
-          width: 45em;
-      }
+    .content {
+      text-align: left;
+      width: 45em;
+    }
   }
 
   .feature.left {
-      grid-template-areas: "left right";
+    grid-template-areas: "left right";
 
-      img {
-          grid-area: left;
-      }
+    img {
+      grid-area: left;
+    }
 
-      .content {
-          text-align: left;
-          width: 45em;
-          justify-self: left;
-      }
+    .content {
+      text-align: left;
+      width: 45em;
+      justify-self: left;
+    }
   }
 
   footer {
@@ -239,8 +244,8 @@ footer {
     border-top: 1px solid #C1CDD7;
   
     .Footer-ListWrapper{
-        display: flex;
-        margin: 0;
+      display: flex;
+      margin: 0;
     
       .footer {
         margin-top: 2.5em;
@@ -253,8 +258,8 @@ footer {
           text-align: center;
             
           &:hover {
-              background: none;
-              text-decoration: underline;
+            background: none;
+            text-decoration: underline;
           }
         }
       }

@@ -12,6 +12,10 @@ a {
 .logo {
   font-size: 2rem;
   color: #087c08;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .logo span {
@@ -21,6 +25,10 @@ a {
 .logoimg {
   width: 3rem;
   height: 3rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 nav {
@@ -60,6 +68,10 @@ nav .close {
   float: right;
   margin: 2em;
   width: 2.5em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 header {
