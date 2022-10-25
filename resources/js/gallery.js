@@ -79,7 +79,7 @@ function changeImg(changeDir) {
             calcNewImg = 1;
         }
     }
-    else if (changeDir === 0){
+    else if (changeDir === 0) {
         calcNewImg = getLatestOpenedImg - 1;
         if (calcNewImg < 1) {
             calcNewImg = galleryImages.length;
