@@ -30,7 +30,7 @@ a {
   color: rgb(8, 124, 8);
 
   span {
-      color: rgb(35, 185, 21);
+    color: rgb(35, 185, 21);
   }
 }
   
@@ -80,9 +80,9 @@ header {
   justify-content: space-between;
 
   svg {
-      width: 2.5em;
-      margin-top: -.6em;
-      cursor: pointer;
+    width: 2.5em;
+    margin-top: -.6em;
+    cursor: pointer;
   }
 }
   
@@ -159,7 +159,7 @@ footer {
 
 @media only screen and (min-width: 920px) {
   .menu {
-      display: none;
+    display: none;
   }
 
   nav {
@@ -193,12 +193,12 @@ footer {
   }
 
   .logo {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 
   .logoimg {
-      width: 5rem;
-      height: 5rem;
+    width: 5rem;
+    height: 5rem;
   }
 
   

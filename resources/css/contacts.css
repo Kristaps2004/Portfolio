@@ -64,10 +64,6 @@ nav .close {
   float: right;
   margin: 2em;
   width: 2.5em;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 header {
