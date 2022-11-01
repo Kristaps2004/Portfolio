@@ -92,7 +92,7 @@ header svg {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0%;
   width: 90%;
   border-top: 1px solid #C1CDD7;
@@ -267,6 +267,9 @@ footer .Footer-ListWrapper .footer a:hover {
   .logoimg {
     width: 5rem;
     height: 5rem;
+  }
+  footer {
+    position: absolute;
   }
   footer .Footer-ListWrapper .footer {
     margin-top: 2.5em;

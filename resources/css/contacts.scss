@@ -80,7 +80,7 @@ header {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0%;
   width: 90%;
   border-top: 1px solid #C1CDD7;
@@ -250,7 +250,8 @@ footer {
     height: 5rem;
   }
 
-  footer {  
+  footer {
+    position: absolute; 
     .Footer-ListWrapper{
       .footer {
         margin-top: 2.5em;
