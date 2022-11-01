@@ -17,6 +17,11 @@ a {
   span {
     color: rgb(35, 185, 21);
   }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
 }
 
 .logoimg {
@@ -75,7 +80,7 @@ header {
 }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0%;
   width: 90%;
   border-top: 1px solid #C1CDD7;
@@ -245,33 +250,16 @@ footer {
     height: 5rem;
   }
 
-  footer {
-    position: absolute;
-    bottom: 0%;
-    width: 90%;
-    border-top: 1px solid #C1CDD7;
-  
+  footer {  
     .Footer-ListWrapper{
-      display: flex;
-      margin: 0;
-    
       .footer {
         margin-top: 2.5em;
 
         a {
           font-size: 1.2rem;
           padding: 0.5em 1.5em;
-          color: black;
-          width: 100%;
-          text-align: center;
-            
-          &:hover {
-            background: none;
-            text-decoration: underline;
-          }
         }
       }
     }
   }
 }
-
