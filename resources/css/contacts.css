@@ -110,7 +110,7 @@ footer .Footer-ListWrapper .footer {
 }
 
 footer .Footer-ListWrapper .footer a {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 1em;
   color: black;
   width: 100%;
@@ -123,31 +123,28 @@ footer .Footer-ListWrapper .footer a:hover {
 }
 
 .text-box {
-  position: relative;
-  float: left;
-  width: 700px;
+  width: 300px;
   margin-top: 3rem;
 }
 
 .text-box h1 {
-  font-size: 4rem;
-  margin-top: 1em;
-  line-height: 2.3rem;
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+  line-height: 2.25rem;
   color: black;
 }
 
 .text-box h2 {
   font-weight: bold;
-  font-size: 1.25rem;
-  line-height: 1.25rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 
 .contact-box {
-  position: relative;
-  float: right;
-  margin-top: 3rem;
-  padding: 40px 40px;
-  max-width: 600px;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  padding: 2px 20px;
+  max-width: 300px;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -171,20 +168,20 @@ footer .Footer-ListWrapper .footer a:hover {
   margin-bottom: 22px;
   -webkit-transition: .3s;
   transition: .3s;
-  max-width: 600px;
+  max-width: 300px;
 }
 
 .contact-box .field {
-  max-width: 600px;
-  min-width: 600px;
-  min-height: 200px;
-  max-height: 200px;
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 150px;
+  max-height: 150px;
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
   background-color: rgba(230, 230, 230, 0.6);
   padding: 0.5rem;
   font-size: 1.1rem;
-  margin-bottom: 22px;
+  margin-bottom: 11px;
 }
 
 .contact-box h3 {
@@ -207,8 +204,8 @@ footer .Footer-ListWrapper .footer a:hover {
 }
 
 .contact-box .btn {
-  width: 30rem;
-  padding: 0.5rem 0.5rem;
+  width: 15rem;
+  padding: 0.25rem 0.25rem;
   background-color: #2ecc71;
   color: #fff;
   font-size: 1.1rem;
@@ -277,6 +274,93 @@ footer .Footer-ListWrapper .footer a:hover {
   footer .Footer-ListWrapper .footer a {
     font-size: 1.2rem;
     padding: 0.5em 1.5em;
+  }
+  .text-box {
+    width: 700px;
+    margin-top: 3rem;
+  }
+  .text-box h1 {
+    font-size: 4rem;
+    margin-top: 1em;
+    line-height: 2.3rem;
+  }
+  .text-box h2 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
+  .contact-box {
+    position: relative;
+    float: right;
+    margin-top: 3rem;
+    padding: 40px 40px;
+    max-width: 600px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.096);
+            box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.096);
+  }
+  .contact-box .input {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    max-width: 600px;
+  }
+  .contact-box .field {
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 200px;
+    max-height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+  }
+  .contact-box h3 {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .contact-box h3:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+  }
+  .contact-box .btn {
+    width: 30rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .contact-box .btn:hover {
+    background-color: #27ae60;
   }
 }
 /*# sourceMappingURL=contacts.css.map */
