@@ -276,6 +276,8 @@ footer .Footer-ListWrapper .footer a:hover {
     padding: 0.5em 1.5em;
   }
   .text-box {
+    position: relative;
+    float: left;
     width: 700px;
     margin-top: 3rem;
   }
