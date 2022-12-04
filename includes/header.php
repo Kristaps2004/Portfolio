@@ -1,4 +1,4 @@
-<a href="index.html" class="logo"><img class="logoimg" src="resources/favicons/logo.png" alt="Company Logo">Kristaps<span>Ešmits</span></a>
+<a href="index.php" class="logo"><img class="logoimg" src="resources/favicons/logo.png" alt="Company Logo">Kristaps<span>Ešmits</span></a>
 <nav>
     <svg class="close" viewPort="0 0 12 12" version="1.1"xmlns="http://www.w3.org/2000/svg">
         <line  y1="30" x2="30" y2="4" x1="4"stroke="black" stroke-width="5"/>

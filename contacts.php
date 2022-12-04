@@ -26,7 +26,7 @@
                 <div class="box">
                     <h3>Contact Me</h3>
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://kristaps2004.github.io/Portfolio/contacts.html">
+                    <input type="hidden" name="_next" value="https://kristaps2004.github.io/Portfolio/contacts.php">
                     <input type="text" name="Name" class="input" placeholder="Name" required>
                     <input type="email" name="Email" class="input" placeholder="Email" required>
                     <textarea placeholder="Message" name="Message" class="field" required></textarea>
@@ -37,14 +37,7 @@
     </div>
     
     <footer>
-        <div class="Footer-ListWrapper">
-            <a href="index.html"><img class="logoimg" src="resources/favicons/logo.png" alt="Company Logo"></a>
-            <div class="footer">
-                <a href="index.html">Home</a>
-                <a href="galery.html">Gallery</a>
-                <a href="contacts.html">Contacts</a>
-            </div>
-        </div>
+        <?php include 'includes/footer.php';?>
     </footer>
     <script src="resources/js/index.js"></script>
 </body>

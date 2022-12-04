@@ -141,14 +141,7 @@
     </section>
 
     <footer>
-        <div class="Footer-ListWrapper">
-            <a href="index.html"><img class="logoimg" src="resources/favicons/logo.png" alt="Company Logo"></a>
-            <div class="footer">
-                <a href="index.html">Home</a>
-                <a href="galery.html">Gallery</a>
-                <a href="contacts.html">Contacts</a>
-            </div>
-        </div>
+        <?php include 'includes/footer.php';?>
     </footer>
     <script src="resources/js/gallery.js"></script>
 </body>
