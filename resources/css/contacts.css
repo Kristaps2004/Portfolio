@@ -86,10 +86,6 @@ header svg {
   cursor: pointer;
 }
 
-section.info {
-  height: 75vh;
-}
-
 .open-nav {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
@@ -97,7 +93,6 @@ section.info {
 
 footer {
   position: relative;
-  top: 100%;
   bottom: 0%;
   width: 90%;
   border-top: 1px solid #C1CDD7;
@@ -115,7 +110,7 @@ footer .Footer-ListWrapper .footer {
 }
 
 footer .Footer-ListWrapper .footer a {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 1em;
   color: black;
   width: 100%;
@@ -271,7 +266,7 @@ footer .Footer-ListWrapper .footer a:hover {
     height: 5rem;
   }
   footer {
-    position: relative;
+    position: absolute;
   }
   footer .Footer-ListWrapper .footer {
     margin-top: 2.5em;

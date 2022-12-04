@@ -75,17 +75,12 @@ header {
   }
 }
   
-section.info {
-  height: 75vh;
-}
-
 .open-nav {
   transform: translateX(0%);
 }
 
 footer {
   position: relative;
-  top: 100%;
   bottom: 0%;
   width: 90%;
   border-top: 1px solid #C1CDD7;
@@ -98,7 +93,7 @@ footer {
       margin-top: 1.4em;
 
       a {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 1em;
         color: black;
         width: 100%;
@@ -253,8 +248,7 @@ footer {
   }
 
   footer {
-    position: relative;
-    
+    position: absolute; 
     .Footer-ListWrapper{
       .footer {
         margin-top: 2.5em;
