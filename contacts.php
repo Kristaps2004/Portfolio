@@ -21,7 +21,6 @@
                 <h1>Need to contact me?</h1>
                 <h2>Fill out the form and I will get in touch with you as soon as possible!</h2>
             </div>
-
             <form class="contact-box" action="https://formsubmit.co/esmitskristaps@inbox.lv", method="POST">
                 <div class="box">
                     <h3>Contact Me</h3>
@@ -35,7 +34,6 @@
             </form>
         </section>
     </div>
-    
     <footer>
         <?php include 'includes/footer.php';?>
     </footer>

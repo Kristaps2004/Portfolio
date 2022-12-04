@@ -18,12 +18,10 @@
         <header>
             <?php include 'includes/header.php';?>
         </header>
-
         <section class="hero">
             <h1>Hello!</h1>
             <p clas="subhead">I'm Kristaps Ešmits, a student at Riga State Technical School </p>
         </section>
-
         <section class="more-info">
             <div class="feature left">
                 <div class="content">
