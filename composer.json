@@ -1,0 +1,12 @@
+{
+    "name": "01dpkesmits/portfolio",
+    "type": "project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
+
